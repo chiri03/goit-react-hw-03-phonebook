@@ -1,0 +1,32 @@
+.contacts-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts-button {
+  margin-left: 10px;
+  width: fit-content;
+  border: 1px solid;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 7px 12px; 
+  &:hover{
+     background-color: #2196f3;
+    border: 1px solid #2196f3;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+
+.contacts-li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left; 
+  width: 100%; 
+  line-height: 26px;
+  margin-bottom: 10px;
+  gap:10px;
+}
